@@ -1,0 +1,11 @@
+i {
+    color: lightgray;
+    font-size: 12pt;
+}
+
+.left {
+    float: left;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}

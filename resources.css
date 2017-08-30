@@ -1,0 +1,15 @@
+#resource-list {
+	list-style: circle;
+}
+
+#resource-list * {
+	margin-left: 20px;
+}
+
+#resource-list {
+	background-color: transparent;
+}
+
+#resource-list li a:hover {
+	background: rgba(0, 0, 0, 0.65);
+}

@@ -1,0 +1,73 @@
+<!--
+
+August 26, 2017 - CREATED
+  Coded by Mitchell
+  Skype: noodlecorp
+
+  Credits to mellogang for site layout idea
+
+QG5vb2RsZXN0aGVza2lkIG9uIHR3aXQNCkB
+ub29kbGVzLnRhci5neiBvbiBza3lwZQ0KQG
+5vb2RsZWNvcnAgb24gc2t5cGUNCm5vb2RsZ
+XpAY29jay5saSBvbiB4bXBwIG9yIGVtYWls
+
+-->
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="resources.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<title>RESOURCES</title>
+</head>
+<body background="https://images7.alphacoders.com/801/801755.jpg">
+<div class="about">
+<div class="marginDatShit">
+<p style="font-size: 30px;" class="type-text" title="R3S0URC3$">:)</p>
+    <hr>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.teletype.min.js"></script>
+    <script>
+      $( function() {
+        $( '.type-text' ).each( function() {
+          var items = $( this ).attr( 'title' ) + ';' + $( this ).text();
+          $( this ).empty().attr( 'title', '' ).teletype( {
+            text: $.map( items.split( ';' ), $.trim ),
+            backDelay: 20,
+            cursor: '|',
+            delay: 100,
+            preserve: false,
+            humanise: true,
+            prefix: '[leigh ~]# ',
+          } );
+        } );
+      } );
+    </script>
+
+    Here are a list of resources you can use to be a hacca
+    <br><br>
+    <ul id="resource-list">
+      <li><a href="http://overthewire.org/wargames/bandit/">Bandit Hacking Game</a></li>
+      <li><a href="https://www.youtube.com/user/JackkTutorials">JackkTutorials - Youtube</a></li>
+      <li><a href="https://www.aircrack-ng.org/documentation.html">Aircrack-ng Documentation</a></li>
+      <li><a href="https://tools.kali.org/password-attacks/hydra">THC - Hydra</a></li>
+      <li><a href="https://www.hak5.org/category/episodes/metasploit-minute">Metasploit Tutorials</a></li>
+      <li><a href="https://www.vulnhub.com/"> CTF Database - Vulnhub</a></li>
+    </ul>
+    <br>
+    <br>
+    
+</div>
+</div>
+
+<ul id="footer">
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a class="active" href="resources.html">RESOURCES</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+</ul>
+<body>
+
+<audio src="songs/7yearsremix.mp3" autoplay loop></audio>
+
+</html>
